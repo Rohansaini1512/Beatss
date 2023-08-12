@@ -1,0 +1,314 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+    background: #0f0f10;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15rem;
+    /* gap: 1rem; */
+    margin-bottom: 5rem;
+}
+
+.studio{
+    position: absolute;
+    margin-top: 7rem;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+}
+
+.first img{
+    position: relative;
+    top: 0rem;
+}
+
+.instru {
+    display: flex;
+    flex-direction: row;
+}
+
+.bluetooth{
+    position: relative;
+    right: 2rem;
+}
+
+.microphone{
+    position: relative;
+    right: 2rem;
+}
+
+.topimg img{
+    width: 100px;
+}
+
+.main2{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+nav{
+    margin: 20px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-left: 190px;
+}
+nav ul li{
+    font-size: 20px;
+    list-style-type:none ;
+    text-decoration: none;
+}
+.shop{
+    background: #1e1e21;
+  border-radius: 8px;
+  font-weight: 300;
+  font-size: 14px;
+}
+.onEar{
+    margin-top: 90px;
+    width: 320px;
+    margin-left: 350px;
+}
+.Beat{
+    margin-top: 10px;
+    margin-left: 270px;
+    font-size:xx-large;
+    font-family:  "Poppins",Normal;
+}
+.over{
+    margin-top: 50px;
+    margin-left: 270px;
+    font-family: "Poppins",Normal;
+}
+.view{
+    margin-left: 270px;
+    margin-top: 30px;
+    line-height: 25px;
+
+}
+.bag{
+    margin-top: 30px;
+    
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.specs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 30px;
+    font-family: "Poppins",Normal;
+}
+.instru{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+.images{
+    gap: 50px;
+}
+.bluetooth{
+     line-height: 23px;
+     margin-left: 50px;
+}
+.battery{
+    line-height: 23px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.microphone{
+    line-height: 23px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.i1{
+    margin-top: 27px;
+}
+ .case{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+} 
+.i2{
+    display: flex;
+    flex-direction: row;
+    gap:70px ;
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    line-height: 25px;
+    font-family: "Poppins",Normal;
+} 
+ 
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 120px;
+    background-color: #181a1b;
+    border-radius: 12px;
+    padding: 40px 0;
+}
+.music div , .music p , .music h3 , .music img{
+    background-color: transparent;
+}
+.music div{
+    width: 25%;
+}
+.music div h3{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.music div p{
+    color: #bdc0c2;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.music div div {
+display: flex;
+align-items: center;
+width: fit-content;
+background: #000000;
+border-radius: 8px;
+padding: 10px 20px;
+}
+
+.music div div img {
+scale: 0.8;
+margin-right: 10px;
+}
+
+.music div div p {
+margin-bottom: 0;
+font-size: 12px;
+color: white;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.i3{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+.first{
+    position: relative;
+  width: 130px;
+  height: 130px;
+  background: #181a1b;
+  border-radius: 8px;
+}
+.product-img{
+    z-index: 100;
+    top: -40px;
+    left: 28px;
+    height: 100px;
+    width: 75px;
+    background-color: transparent;
+}
+.product-card-img{
+    background-color: transparent;
+    background: #0a0a0b;
+  border-radius: 8px;
+  padding: 2px 6px;
+}
+/* .cont{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    margin-top: 50px;
+} */
+.foot{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 170px;
+    margin-bottom: 80px;
+    gap: 150px;
+}
+.arrow{
+    margin-right: 160px;
+    position: relative;
+}
+.pro{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    list-style: none;
+    font-family: "Poppins",Normal;
+    font-size: 12px;
+  color: #BDC0C2;
+}
+a{
+    text-decoration: none;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    background-color: #0A0A0B;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    align-items: center;
+    gap: 15px;
+}
+.footer-subscription{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      
+      .footer-subscription div:first-child{
+        background: #181A1B;
+      border-radius: 8px;
+      padding: 5px 10px;
+      display: flex;
+      }
+      
+      .footer-subscription div:first-child input{
+        border: none;
+        background-color: transparent;
+      }
+      
+.social{
+    gap: 30px;
+}
+@media screen  and (max-width : 768px) and (min-width : 425){
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+}
